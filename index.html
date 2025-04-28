@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KVGN Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar" data-aos="fade-down">
+    <div class="logo">KVGN Portfolio</div>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Background Image -->
+  <section id="hero" class="hero" data-aos="zoom-in">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Venugopal</span></h1>
+      <p>Web Developer | UI/UX Designer | Data Analyst</p>
+    </div>
+  </section>
+
+  <!-- About Section with Image -->
+  <section id="about" class="section about-section" data-aos="fade-right">
+    <div class="about-content">
+      <img src="assets/profile.jpg" alt="Profile" class="about-img" />
+      <div>
+        <h2>About Me</h2>
+        <p>Hi! I am currently pursuing a B.Tech degree in Computer Science and Engineering at Malla Reddy Engineering College, Hyderabad. With a strong foundation in Web Development, UI/UX Design, and Data Analytics, I am eager to apply my skills in a professional setting through internships or job opportunities. I have a keen interest in data analysis, including exploratory data analysis (EDA), visualization, and predictive analytics, and I am passionate about leveraging these skills to drive informed decision-making. I am seeking opportunities where I can contribute to innovative projects, enhance my problem-solving abilities, and collaborate with teams to solve real-world challenges while advancing my career in data analytics.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section" data-aos="fade-up">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span>
+      <span>Figma</span><br><span>UI/UX</span><span>Java</span><span>Data Analysis</span><span>Mysql</span><span>Excel</span>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section" data-aos="fade-up">
+    <h2>Projects</h2>
+        <div class="project-card">
+  <h3>Expensive Tracker</h3>
+  <p>Using Python and matplotlib </p>
+  <a href="https://github.com/Kvgn/Expensive-tracker" target="_blank">GitHub</a>
+</div>
+
+<div class="project-card">
+  <h3>Helmet Detection Using CNN</h3>
+  <p>Python and Deep Learning based project to detect helmets in real-time images or videos.</p>
+  <a href="https://github.com/kvgn/helmet-detection-cnn" target="_blank">GitHub</a>
+</div>
+
+<div class="project-card">
+  <h3>Hospital Management System</h3>
+  <p>HTML, CSS, JavaScript web app to manage hospital-related tasks and patient data.</p>
+  <a href="https://github.com/kvgn/hospital-management-system" target="_blank">GitHub</a>
+</div>
+
+<div class="project-card">
+  <h3>Banking Management System</h3>
+  <p>Command Line Interface-based Python program to handle basic banking operations.</p>
+  <a href="https://github.com/Kvgn/SimpleBankingSystem" target="_blank">GitHub</a>
+</div>
+
+
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="section" data-aos="fade-up">
+    <h2>Certifications</h2>
+      <ul>
+  <li>Data Analytics Essentials – Cisco (April 2025)</li>
+  <li>Deloitte Data Analytics Virtual Internship – Forage (Feb 2025)</li>
+  <li>Data Science & Business Analytics Internship – SkillVertex (2024)</li>
+  <li>Generative AI Fundamentals – LinkedIn Learning (2024)</li>
+  <li>Electronic Arts Software Engineering Virtual Experience – Forage (2024)</li>
+  <li>Advanced AI & Deep Learning – Skilltimate Technologies (2024)</li>
+  <li>C Programming Workshop – Skilltimate Technologies (2023)</li>
+  <li>Certificate of Participation – VISHESH 2K23, MREC (2023)</li>
+  <li>Runner-up – ‘Passing the Pass - Technical’, AKSHARA 2023 (2023)</li>
+  <li>Certificate of Merit – Fundamentals of Physics Quiz, MREC (2022)</li>
+</ul>
+   </section>
+
+  <!-- Resume -->
+  <section id="resume" class="section" data-aos="fade-up">
+    <h2>Resume</h2>
+    <a href="assets/resume.pdf" download class="btn">Download Resume</a>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/xwkgwdgg" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+    <div class="socials">
+      <a href="mailto:iamkvgn@gmail.com">iamkvgn@gmail.com</a> |
+      <a href="tel:+918639165597">+91 8639165597</a> |
+      <a href="https://github.com/kvgn" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/komati-venugopal" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Komati Venugopal. All rights reserved.</p>
+  </footer>
+
+  <button id="theme-toggle">Toggle</button>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
